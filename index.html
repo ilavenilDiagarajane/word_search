@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center pt-5">Dictionary</h1>
+      <div class="row">
+        <div class="col-lg-6 search">
+          <img src="Magnifying-Glass-Search-PNG-Image-HD.png" alt="Searchdic" />
+        </div>
+
+      <div class="col-lg-6">
+         <div>
+            <form class="formclass">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="result"
+                  placeholder="Enter the words...."
+                />
+    
+                <button type="button" class="btn btn-primary" id="fetchdata">
+                  Search
+                </button>
+              </form>
+         </div>
+         <div class="output" >
+            <div class="details">
+                <h3 class="card-title" id="title"> </h3>
+                <h5 class="card-subtitle" id="phonetic"> </h5>
+                <div id="def">
+               
+                </div>
+            </div>
+         </div>
+      </div>
+      
+      </div>
+    </div>
+
+    <script src="scriptdic .js"></script>
+  </body>
+</html>
